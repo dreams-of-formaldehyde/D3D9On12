@@ -9,7 +9,7 @@ on:
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
-  BUILD_TYPE: RelWithDebInfo
+  BUILD_TYPE: Release
 
 jobs:
   build:
@@ -39,5 +39,6 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.3.0
       with:
-      name: d3d9*
-          
+      name: d3d9on12-latest-git
+      path: |
+      ${{github.workspace}}/build/Release/D3D9on12.dll  
