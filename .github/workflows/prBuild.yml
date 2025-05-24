@@ -39,4 +39,4 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.3.0
       with:
-        path: ${{github.workspace}}/build/src/Release/*
+        path: ${{github.workspace}}/build/src/Release/
