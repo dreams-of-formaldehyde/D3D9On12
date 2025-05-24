@@ -3,7 +3,7 @@
 name: PR Build
 
 on:
-  event_dispatch:
+  workflow_dispatch:
   pull_request:
     branches: [ "main" ]
 
