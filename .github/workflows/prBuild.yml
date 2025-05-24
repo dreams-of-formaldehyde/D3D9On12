@@ -38,5 +38,6 @@ jobs:
 
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.3.0
-      with: d3d9
+      with:
+      name: d3d9*
           
