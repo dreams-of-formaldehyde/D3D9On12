@@ -39,5 +39,4 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.3.0
       with:
-      name: d3d9on12-latest-git
-      path: ${{github.workspace}}/build/Release/
+        path: ${{github.workspace}}/build/Release/
