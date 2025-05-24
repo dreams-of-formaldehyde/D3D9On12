@@ -39,5 +39,4 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.3.0
       with:
-        pattern: "*.dll"
-        path: "${{github.workspace}}/build/src/Release/"
+        path: D:\a\D3D9On12\D3D9On12\build\src\Release\d3d9on12.dll
